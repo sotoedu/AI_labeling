@@ -16,6 +16,8 @@
     $ git clone https://github.com/sotoedu/AI_labeling.git
 
     $ cd AI_labeling
+    
+    $ pip install -r requirements.txt
 
     2) 라벨링 파일 실행
     $ python run.py
