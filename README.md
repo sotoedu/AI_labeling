@@ -23,12 +23,13 @@
     $ python run.py
 
     3) 라벨링 작업
-
-    해당 이미지에서 labelling하고 싶은 영역을 드레그 함
-
     1 class_list.txt 파일에는 labelling하고 싶은 키워드 입력
-
-    2 해당 이미지지에서 labelling 번호를 선택하고, 마우스로 드레그
+    2 images 폴더에 라벨링에 필요한 파일들을 넣어 둠
+      a) 최소 600 x 400 사이즈 이상
+      b) 파일명규칙 준수  img_x.png (x: 1,2,...)    
+    
+    3 이미지에서 labelling하고 싶은 영역을 드레그 후 클릭을 하면 라벨이 생성됨
+    4 해당 이미지지에서 labelling 번호를 선택하고, 마우스로 드레그
 
     키보드 단축키
     q: quit, w: class, s: class, a: pre_img, d: next_img, e: togle
